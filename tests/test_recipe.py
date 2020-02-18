@@ -1,7 +1,8 @@
-from src.recipe import Recipe
-from src.ingredient import Ingredient
-from src.recipe_step import RecipeStep
-from src.grocery import Grocery
+import pytest
+from src.food.recipe import Recipe
+from src.food.ingredient import Ingredient
+from src.food.recipe_step import RecipeStep
+from src.food.grocery import Grocery
 from pint import UnitRegistry
 ureg = UnitRegistry()
 R = Recipe()

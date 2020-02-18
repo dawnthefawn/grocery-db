@@ -1,7 +1,7 @@
 import pint
 import fractions
 import math
-from src.grocery import Grocery
+from src.food.grocery import Grocery
 f = fractions.Fraction
 
 

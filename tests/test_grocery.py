@@ -1,6 +1,6 @@
 import pytest
 from pint import UnitRegistry
-from src.grocery import Grocery
+from src.food.grocery import Grocery
 
 ureg = UnitRegistry()
 g = Grocery("flour", ureg.parse_units("cup"))

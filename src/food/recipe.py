@@ -1,5 +1,5 @@
-from src.recipe_step import RecipeStep
-from src.ingredient import Ingredient
+from src.food.recipe_step import RecipeStep
+from src.food.ingredient import Ingredient
 
 
 class Recipe :

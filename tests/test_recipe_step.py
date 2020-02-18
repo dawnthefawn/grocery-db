@@ -1,5 +1,5 @@
 import pytest
-from src.recipe_step import RecipeStep
+from src.food.recipe_step import RecipeStep
 
 s = "Mix together ingredients and put in a dutch oven at body temperature"
 rs1 = RecipeStep(s, 1)

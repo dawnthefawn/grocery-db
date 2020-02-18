@@ -1,8 +1,8 @@
 import pytest
-from src.ingredient import Ingredient
+from src.food.ingredient import Ingredient
 from fractions import Fraction
 from pint import UnitRegistry
-from src.grocery import Grocery
+from src.food.grocery import Grocery
 ureg  = UnitRegistry()
 
 def i()->Ingredient:
